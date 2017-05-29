@@ -1,7 +1,7 @@
 //$(document).ready(function(){
 alert("Let the game begin!");
 	
-var count = 10;
+var count = 30;
 
 function timer(){
 	var counter = setInterval(timer,3000);
@@ -15,7 +15,7 @@ function timer(){
 	}
 
 	document.getElementById("show-number").innerHTML = count + " secs ";
-	
+
 }
 
 timer();

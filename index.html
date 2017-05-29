@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<html lang="en-us">
+	<title>Trivia Game</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+  <body>
+<h1><a href="http://fontmeme.com/harry-potter-font/"><img src="http://fontmeme.com/permalink/170528/38d12ebba1a05826c36f39920b0866ff.png" alt="harry-potter-font" border="0"></a></h1>
+
+<div class="boxed">
+<p>Instructions</p>
+<p>Hello!Lets test your knowledge!You have 
+50 seconds to answer the quiz questions!Goodluck!</p>
+<span id="timer"></span>
+<div id = "after_submit">
+	<p id="message"></p>
+<p id = "number_correct"></p>
+<img id="pictures" width=250px height=200px>
+</div>
+<h2>
+<div id="show-number"></div>
+</h2>
+</div>
+<form id="quiz" name="quiz">
+	<p> 1.According to the Dursleys, how did Harry's parents die?</p>
+<ul class="answers">
+<input type="radio" name="question1" value="0" /> They were murdered by Voldemort.<br />
+<input type="radio" name="question1" value="CAR" /> In a car accident.<br />
+<input type="radio" name="question1" value="0" /> They died in a wizard tournament<br />
+<input type="radio" name="question1" value="0" /> Neither, Harry's parents are alive.<br />
+</ul>
+
+	<p> 2.Whom does the term "muggle" refer to?</p>
+<ul class="answers">
+<input type="radio" name="question2" value="NON" /> A non wizard or witch.<br />
+<input type="radio" name="question2" value="0" /> A person who likes to hold mugs.<br />
+<input type="radio" name="question2" value="0" /> Wizards who live in Muggle land<br />
+</ul>
+
+	<p> 3.What item must be found so a Quidditch match may end?</p>
+<ul class="answers">
+<input type="radio" name="question3" value="TS" /> The Snitch.<br />
+<input type="radio" name="question3" value="0" /> Professor McGonagall's broom.<br />
+<input type="radio" name="question3" value="0" /> A Horcrux<br />
+</ul>
+
+	<p> 4.What is Lord Voldermort's real name?</p>
+<ul class="answers">
+<input type="radio" name="question4" value="0" /> Tom Marvolo Smith.<br />
+<input type="radio" name="question4" value="0" /> His real name is Voldemort.<br />
+<input type="radio" name="question4" value="0" /> Luke Skywalker<br />
+<input type="radio" name="question4" value="TMR" /> Tom Marvolo Riddle<br />
+</ul>
+<input id="button" type="button" value="Finished!" onclick ="check();">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="javascript/game.js"></script>
+<script type="https://code.jquery.com/jquery-3.1.1.min.js">

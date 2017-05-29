@@ -1,0 +1,83 @@
+body{
+	background-image:url("../../assets/images/harrypotterbak.jpg");
+	background-size: 100%;
+	
+}
+
+h1,h2{
+	text-align: center;
+}
+p{
+	color:#fff;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	text-align: center;
+}
+#after_submit{
+	visibility: hidden;
+	color: #483D8B;
+	font-weight: bold 1px;
+}
+#pictures{
+	position: fixed;
+	border:1px solid white;
+}
+
+#button{
+	color:purple;
+	position: center;
+	margin-left: 47%;
+	margin-right: 30%;
+    font-family: 'Playfair Display', serif;
+}
+.answers{
+	color: #483D8B;
+	font-size:17px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+.boxed{
+	border:2px solid white;
+	height:300px;
+	width:250px;
+	float:left;
+	position: fixed;
+	overflow: left;
+	margin-left: 20px;
+	margin-top:50px;
+	margin-right:20px;
+	background-image:url("../../assets/images/harrypotterfan.jpg");
+	
+}
+}
+.img-circle{
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:959px){
+
+}

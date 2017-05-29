@@ -1,7 +1,24 @@
 //$(document).ready(function(){
 alert("Let the game begin!");
 	
+var count = 10;
 
+function timer(){
+	var counter = setInterval(timer,3000);
+	count = count-1;
+	if (count == 0)
+
+	{
+		clearInterval(counter);
+		alert("times up!");
+		
+	}
+
+	document.getElementById("show-number").innerHTML = count + " secs ";
+	
+}
+
+timer();
 	
 		
 		
@@ -39,16 +56,11 @@ function check(){
   		range = 0;
   	}
 
-  var count = 30;
-var counter = setInterval(timer,3000);
-	count = count-1;
-		if (count <= 0)
-		{
-	clearInterval(counter);
-	alert("times up!");
-		}
-	 document.getElementById("timer").innerHTML = count + " secs ";
+
+	 //document.getElementById("timer").innerHTML = count + " secs ";
+
 	 document.getElementById("after_submit").style.visibility = "visible";
+
 	 document.getElementById("message").innerHTML = messages[range];
      document.getElementById("number_correct").innerHTML = "you got " + correct + " correct.";
      document.getElementById("pictures").src = pictures[range];

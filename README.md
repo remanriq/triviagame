@@ -1,1 +1,5 @@
-# triviagame
+ For trivia game, I decided to create an interactive game using giphs and used Javascript to set a time limit for the user to play. I decided to choose Harry Potter since it is a very popular book and one of my favorite book series. 
+
+ In order to create a quiz form, I utilized a html form using "radio" so the user is able to click the circle to choose their answer. Also, I used a Harry Potter font creater which I researched online, and I was able to embed the code into my trivia site. Using CSS I created a background and set up the side images/giphs for my game. 
+
+ Now my Javascript allows for the user to know how much time he/she has to complete the quiz. So, for example, once the user loads the page, the user will be alerted he /she only has 1 minute to complete the game. Using code, I set up three giphs to accompany the user's answer. So, if the user got less than three right, he would receive the losing "dumbledor giph." In the end, the user can see the amount of answers the user got correctly. 

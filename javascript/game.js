@@ -4,7 +4,7 @@ alert("Let the game begin!");
 var count = 30;
 
 function timer(){
-	var counter = setInterval(timer,3000);
+	var counter = setInterval(timer,5000);
 	count = count-1;
 	if (count == 0)
 
